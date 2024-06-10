@@ -13,6 +13,13 @@
 		4148817C2C10D71700EE9561 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4148817B2C10D71700EE9561 /* Base */; };
 		4148817E2C10D71800EE9561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4148817D2C10D71800EE9561 /* Assets.xcassets */; };
 		414881812C10D71800EE9561 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 414881802C10D71800EE9561 /* Base */; };
+		4148818B2C10DD5700EE9561 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4148818A2C10DD5700EE9561 /* HomeCell.xib */; };
+		4148818C2C10DD5700EE9561 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414881892C10DD5700EE9561 /* HomeCell.swift */; };
+		414881B52C16A7F700EE9561 /* ChatDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414881B42C16A7F700EE9561 /* ChatDetailsViewController.swift */; };
+		414881B82C16B34900EE9561 /* SenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414881B62C16B34900EE9561 /* SenderCell.swift */; };
+		414881B92C16B34900EE9561 /* SenderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414881B72C16B34900EE9561 /* SenderCell.xib */; };
+		414881BC2C16B4F600EE9561 /* ReceiverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414881BA2C16B4F600EE9561 /* ReceiverCell.swift */; };
+		414881BD2C16B4F600EE9561 /* ReceiverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414881BB2C16B4F600EE9561 /* ReceiverCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		4148817D2C10D71800EE9561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		414881802C10D71800EE9561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		414881822C10D71800EE9561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		414881892C10DD5700EE9561 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		4148818A2C10DD5700EE9561 /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		414881B42C16A7F700EE9561 /* ChatDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailsViewController.swift; sourceTree = "<group>"; };
+		414881B62C16B34900EE9561 /* SenderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderCell.swift; sourceTree = "<group>"; };
+		414881B72C16B34900EE9561 /* SenderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SenderCell.xib; sourceTree = "<group>"; };
+		414881BA2C16B4F600EE9561 /* ReceiverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverCell.swift; sourceTree = "<group>"; };
+		414881BB2C16B4F600EE9561 /* ReceiverCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiverCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +73,27 @@
 				414881742C10D71700EE9561 /* AppDelegate.swift */,
 				414881762C10D71700EE9561 /* SceneDelegate.swift */,
 				414881782C10D71700EE9561 /* ViewController.swift */,
+				414881B42C16A7F700EE9561 /* ChatDetailsViewController.swift */,
+				414881882C10DD2E00EE9561 /* Cells */,
 				4148817A2C10D71700EE9561 /* Main.storyboard */,
 				4148817D2C10D71800EE9561 /* Assets.xcassets */,
 				4148817F2C10D71800EE9561 /* LaunchScreen.storyboard */,
 				414881822C10D71800EE9561 /* Info.plist */,
 			);
 			path = ChatWithMe;
+			sourceTree = "<group>";
+		};
+		414881882C10DD2E00EE9561 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				414881892C10DD5700EE9561 /* HomeCell.swift */,
+				4148818A2C10DD5700EE9561 /* HomeCell.xib */,
+				414881B62C16B34900EE9561 /* SenderCell.swift */,
+				414881B72C16B34900EE9561 /* SenderCell.xib */,
+				414881BA2C16B4F600EE9561 /* ReceiverCell.swift */,
+				414881BB2C16B4F600EE9561 /* ReceiverCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +156,9 @@
 			files = (
 				4148817E2C10D71800EE9561 /* Assets.xcassets in Resources */,
 				414881812C10D71800EE9561 /* Base in Resources */,
+				414881BD2C16B4F600EE9561 /* ReceiverCell.xib in Resources */,
+				4148818B2C10DD5700EE9561 /* HomeCell.xib in Resources */,
+				414881B92C16B34900EE9561 /* SenderCell.xib in Resources */,
 				4148817C2C10D71700EE9561 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +171,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				414881792C10D71700EE9561 /* ViewController.swift in Sources */,
+				414881B52C16A7F700EE9561 /* ChatDetailsViewController.swift in Sources */,
+				414881B82C16B34900EE9561 /* SenderCell.swift in Sources */,
 				414881752C10D71700EE9561 /* AppDelegate.swift in Sources */,
+				414881BC2C16B4F600EE9561 /* ReceiverCell.swift in Sources */,
+				4148818C2C10DD5700EE9561 /* HomeCell.swift in Sources */,
 				414881772C10D71700EE9561 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
